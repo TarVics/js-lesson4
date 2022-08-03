@@ -1,0 +1,22 @@
+div.product-card {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+
+    font-family: Arial, sans-serif;
+    border: 1px black solid;
+    background: #dfe6ea;
+    box-shadow: #464d5e 1px 1px 2px 1px;
+}
+h3.product-title {
+    text-transform: uppercase;
+}
+img.product-image {
+    width: 100%;
+}
+.header {
+    border-left: 4px solid green;
+    padding-left: 10px;
+    display: block;
+    white-space: pre-wrap;
+}

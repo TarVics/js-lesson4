@@ -1,0 +1,30 @@
+.wrap {
+    width: calc(100vw - 40px);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.post-card {
+    flex-basis: calc(20% - 8px);
+    flex-grow: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    font-family: "Droid Serif", sans-serif;
+    background: lightgray;
+    color: black;
+}
+.post-card > h3 {
+    font-size: 12px;
+}
+.post-card > p {
+    font-size: 10px;
+}
